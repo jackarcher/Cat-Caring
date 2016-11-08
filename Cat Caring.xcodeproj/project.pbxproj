@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CB38DF271DB8D45B004CC52A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38DF261DB8D45B004CC52A /* AppDelegate.swift */; };
-		CB38DF291DB8D45B004CC52A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38DF281DB8D45B004CC52A /* ViewController.swift */; };
-		CB38DF2C1DB8D45B004CC52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB38DF2A1DB8D45B004CC52A /* Main.storyboard */; };
 		CB38DF2F1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB38DF2D1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld */; };
 		CB38DF311DB8D45B004CC52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB38DF301DB8D45B004CC52A /* Assets.xcassets */; };
-		CB38DF341DB8D45B004CC52A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB38DF321DB8D45B004CC52A /* LaunchScreen.storyboard */; };
 		CB38DF3F1DB8D45B004CC52A /* Cat_CaringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38DF3E1DB8D45B004CC52A /* Cat_CaringTests.swift */; };
 		CB38DF4A1DB8D45B004CC52A /* Cat_CaringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38DF491DB8D45B004CC52A /* Cat_CaringUITests.swift */; };
+		CB3C0E421DB90531001463C8 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E411DB90531001463C8 /* Themes.swift */; };
+		CB3C0E441DB917F4001463C8 /* FoodIntakeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E431DB917F4001463C8 /* FoodIntakeTableViewCell.swift */; };
+		CB3C0E471DB91878001463C8 /* FoodIntakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E461DB91878001463C8 /* FoodIntakeTableViewController.swift */; };
+		CB3C0E4A1DB91C2B001463C8 /* ActivityLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E491DB91C2B001463C8 /* ActivityLogTableViewCell.swift */; };
+		CB3C0E4C1DB91C9E001463C8 /* ActivityLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E4B1DB91C9E001463C8 /* ActivityLogTableViewController.swift */; };
+		CBAD1E721DCFD96600E3E94B /* DrawingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD1E711DCFD96600E3E94B /* DrawingImageView.swift */; };
+		CBAF02351DCDA98A009AB4B4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF02341DCDA98A009AB4B4 /* DataManager.swift */; };
+		CBAF023F1DCDD18E009AB4B4 /* RTCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF023E1DCDD18E009AB4B4 /* RTCameraViewController.swift */; };
+		CBB624BF1DCE297F000F0A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB38DF2A1DB8D45B004CC52A /* Main.storyboard */; };
+		CBB624C01DCE2984000F0A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB38DF321DB8D45B004CC52A /* LaunchScreen.storyboard */; };
+		CBB624C81DCE29D3000F0A17 /* MjpegStreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB624C71DCE29CD000F0A17 /* MjpegStreamingKit.framework */; };
+		CBB624C91DCE2A01000F0A17 /* MjpegStreamingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB624C71DCE29CD000F0A17 /* MjpegStreamingKit.framework */; };
+		CBB624CA1DCE2A01000F0A17 /* MjpegStreamingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CBB624C71DCE29CD000F0A17 /* MjpegStreamingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +42,39 @@
 			remoteGlobalIDString = CB38DF221DB8D45B004CC52A;
 			remoteInfo = "Cat Caring";
 		};
+		CBB624C61DCE29CD000F0A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB624C21DCE29CD000F0A17 /* MjpegStreamingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A2AEA0C1CA9A43A0047FC82;
+			remoteInfo = MjpegStreamingKit;
+		};
+		CBB624CB1DCE2A01000F0A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB624C21DCE29CD000F0A17 /* MjpegStreamingKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2AEA0B1CA9A43A0047FC82;
+			remoteInfo = MjpegStreamingKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBB624CD1DCE2A01000F0A17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CBB624CA1DCE2A01000F0A17 /* MjpegStreamingKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CB38DF231DB8D45B004CC52A /* Cat Caring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Caring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB38DF261DB8D45B004CC52A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB38DF281DB8D45B004CC52A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB38DF2B1DB8D45B004CC52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB38DF2E1DB8D45B004CC52A /* Cat_Caring.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cat_Caring.xcdatamodel; sourceTree = "<group>"; };
 		CB38DF301DB8D45B004CC52A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +86,15 @@
 		CB38DF451DB8D45B004CC52A /* Cat CaringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat CaringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB38DF491DB8D45B004CC52A /* Cat_CaringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_CaringUITests.swift; sourceTree = "<group>"; };
 		CB38DF4B1DB8D45B004CC52A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3C0E411DB90531001463C8 /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		CB3C0E431DB917F4001463C8 /* FoodIntakeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIntakeTableViewCell.swift; sourceTree = "<group>"; };
+		CB3C0E461DB91878001463C8 /* FoodIntakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIntakeTableViewController.swift; sourceTree = "<group>"; };
+		CB3C0E491DB91C2B001463C8 /* ActivityLogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLogTableViewCell.swift; sourceTree = "<group>"; };
+		CB3C0E4B1DB91C9E001463C8 /* ActivityLogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLogTableViewController.swift; sourceTree = "<group>"; };
+		CBAD1E711DCFD96600E3E94B /* DrawingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingImageView.swift; sourceTree = "<group>"; };
+		CBAF02341DCDA98A009AB4B4 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CBAF023E1DCDD18E009AB4B4 /* RTCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCameraViewController.swift; sourceTree = "<group>"; };
+		CBB624C21DCE29CD000F0A17 /* MjpegStreamingKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MjpegStreamingKit.xcodeproj; path = "MjpegStreamingKit-master/MjpegStreamingKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB624C91DCE2A01000F0A17 /* MjpegStreamingKit.framework in Frameworks */,
+				CBB624C81DCE29D3000F0A17 /* MjpegStreamingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +131,7 @@
 				CB38DF3D1DB8D45B004CC52A /* Cat CaringTests */,
 				CB38DF481DB8D45B004CC52A /* Cat CaringUITests */,
 				CB38DF241DB8D45B004CC52A /* Products */,
+				CBB624C11DCE29CD000F0A17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +148,14 @@
 		CB38DF251DB8D45B004CC52A /* Cat Caring */ = {
 			isa = PBXGroup;
 			children = (
-				CB38DF261DB8D45B004CC52A /* AppDelegate.swift */,
-				CB38DF281DB8D45B004CC52A /* ViewController.swift */,
-				CB38DF2A1DB8D45B004CC52A /* Main.storyboard */,
-				CB38DF301DB8D45B004CC52A /* Assets.xcassets */,
 				CB38DF321DB8D45B004CC52A /* LaunchScreen.storyboard */,
+				CB38DF2A1DB8D45B004CC52A /* Main.storyboard */,
+				CB38DF261DB8D45B004CC52A /* AppDelegate.swift */,
+				CB3C0E481DB9187B001463C8 /* View Controllers */,
+				CB3C0E451DB917F8001463C8 /* Table Cells */,
+				CBAD1E711DCFD96600E3E94B /* DrawingImageView.swift */,
+				CB3C0E411DB90531001463C8 /* Themes.swift */,
+				CB38DF301DB8D45B004CC52A /* Assets.xcassets */,
 				CB38DF351DB8D45B004CC52A /* Info.plist */,
 				CB38DF2D1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld */,
 			);
@@ -128,6 +180,42 @@
 			path = "Cat CaringUITests";
 			sourceTree = "<group>";
 		};
+		CB3C0E451DB917F8001463C8 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CB3C0E431DB917F4001463C8 /* FoodIntakeTableViewCell.swift */,
+				CB3C0E491DB91C2B001463C8 /* ActivityLogTableViewCell.swift */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		CB3C0E481DB9187B001463C8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB3C0E461DB91878001463C8 /* FoodIntakeTableViewController.swift */,
+				CB3C0E4B1DB91C9E001463C8 /* ActivityLogTableViewController.swift */,
+				CBAF02341DCDA98A009AB4B4 /* DataManager.swift */,
+				CBAF023E1DCDD18E009AB4B4 /* RTCameraViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CBB624C11DCE29CD000F0A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB624C21DCE29CD000F0A17 /* MjpegStreamingKit.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBB624C31DCE29CD000F0A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB624C71DCE29CD000F0A17 /* MjpegStreamingKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +226,12 @@
 				CB38DF1F1DB8D45B004CC52A /* Sources */,
 				CB38DF201DB8D45B004CC52A /* Frameworks */,
 				CB38DF211DB8D45B004CC52A /* Resources */,
+				CBB624CD1DCE2A01000F0A17 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CBB624CC1DCE2A01000F0A17 /* PBXTargetDependency */,
 			);
 			name = "Cat Caring";
 			productName = "Cat Caring";
@@ -197,15 +287,18 @@
 					CB38DF221DB8D45B004CC52A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 8M8NTHUJ3Q;
+						LastSwiftMigration = 0800;
 					};
 					CB38DF391DB8D45B004CC52A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 8M8NTHUJ3Q;
+						LastSwiftMigration = 0800;
 						TestTargetID = CB38DF221DB8D45B004CC52A;
 					};
 					CB38DF441DB8D45B004CC52A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 8M8NTHUJ3Q;
+						LastSwiftMigration = 0800;
 						TestTargetID = CB38DF221DB8D45B004CC52A;
 					};
 				};
@@ -221,6 +314,12 @@
 			mainGroup = CB38DF1A1DB8D45B004CC52A;
 			productRefGroup = CB38DF241DB8D45B004CC52A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CBB624C31DCE29CD000F0A17 /* Products */;
+					ProjectRef = CBB624C21DCE29CD000F0A17 /* MjpegStreamingKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CB38DF221DB8D45B004CC52A /* Cat Caring */,
@@ -230,14 +329,24 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CBB624C71DCE29CD000F0A17 /* MjpegStreamingKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MjpegStreamingKit.framework;
+			remoteRef = CBB624C61DCE29CD000F0A17 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		CB38DF211DB8D45B004CC52A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB38DF341DB8D45B004CC52A /* LaunchScreen.storyboard in Resources */,
+				CBB624C01DCE2984000F0A17 /* LaunchScreen.storyboard in Resources */,
+				CBB624BF1DCE297F000F0A17 /* Main.storyboard in Resources */,
 				CB38DF311DB8D45B004CC52A /* Assets.xcassets in Resources */,
-				CB38DF2C1DB8D45B004CC52A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB38DF291DB8D45B004CC52A /* ViewController.swift in Sources */,
+				CB3C0E4C1DB91C9E001463C8 /* ActivityLogTableViewController.swift in Sources */,
+				CBAF02351DCDA98A009AB4B4 /* DataManager.swift in Sources */,
+				CBAF023F1DCDD18E009AB4B4 /* RTCameraViewController.swift in Sources */,
 				CB38DF271DB8D45B004CC52A /* AppDelegate.swift in Sources */,
+				CB3C0E421DB90531001463C8 /* Themes.swift in Sources */,
+				CBAD1E721DCFD96600E3E94B /* DrawingImageView.swift in Sources */,
+				CB3C0E471DB91878001463C8 /* FoodIntakeTableViewController.swift in Sources */,
 				CB38DF2F1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld in Sources */,
+				CB3C0E441DB917F4001463C8 /* FoodIntakeTableViewCell.swift in Sources */,
+				CB3C0E4A1DB91C2B001463C8 /* ActivityLogTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +412,11 @@
 			isa = PBXTargetDependency;
 			target = CB38DF221DB8D45B004CC52A /* Cat Caring */;
 			targetProxy = CB38DF461DB8D45B004CC52A /* PBXContainerItemProxy */;
+		};
+		CBB624CC1DCE2A01000F0A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MjpegStreamingKit;
+			targetProxy = CBB624CB1DCE2A01000F0A17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -407,22 +528,36 @@
 		CB38DF4F1DB8D45B004CC52A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Cat Caring/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ztia23.Cat-Caring";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CB38DF501DB8D45B004CC52A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Cat Caring/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ztia23.Cat-Caring";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +569,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ztia23.Cat-CaringTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Caring.app/Cat Caring";
 			};
 			name = Debug;
@@ -446,6 +582,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ztia23.Cat-CaringTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat Caring.app/Cat Caring";
 			};
 			name = Release;
@@ -457,6 +594,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ztia23.Cat-CaringUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Cat Caring";
 			};
 			name = Debug;
@@ -468,6 +606,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ztia23.Cat-CaringUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Cat Caring";
 			};
 			name = Release;
@@ -491,6 +630,7 @@
 				CB38DF501DB8D45B004CC52A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB38DF511DB8D45B004CC52A /* Build configuration list for PBXNativeTarget "Cat CaringTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +639,7 @@
 				CB38DF531DB8D45B004CC52A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB38DF541DB8D45B004CC52A /* Build configuration list for PBXNativeTarget "Cat CaringUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +648,7 @@
 				CB38DF561DB8D45B004CC52A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

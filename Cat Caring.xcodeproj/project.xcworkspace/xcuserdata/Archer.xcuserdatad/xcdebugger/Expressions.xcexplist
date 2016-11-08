@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "RTCameraViewController.handlePan(recognizer : UIPanGestureRecognizer) -&gt; ():RTCameraViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.screen">
+            </PersistentString>
+            <PersistentString
+               value = "recognizer.view">
+            </PersistentString>
+            <PersistentString
+               value = "recognizer.view!.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.view">
+            </PersistentString>
+            <PersistentString
+               value = "rect!">
+            </PersistentString>
+            <PersistentString
+               value = "rectpath?.cgPath.boundingBox">
+            </PersistentString>
+            <PersistentString
+               value = "rectpath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RTCameraViewController.handlePan(gesture : UIPanGestureRecognizer) -&gt; ():RTCameraViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gesture.view?">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
