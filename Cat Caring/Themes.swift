@@ -48,6 +48,7 @@ struct ThemeManager {
         UINavigationBar.appearance().barTintColor = theme.mainColor
         UINavigationBar.appearance().barStyle = .black
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        UINavigationBar.appearance().tintColor = #colorLiteral(red: 0.7536476254, green: 0.8486114144, blue: 0.9582989812, alpha: 1)
         
     }
 }

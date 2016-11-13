@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+/// This class is unused, and is on the plan for after-graduate development.
 class FoodIntakeTableViewController: UITableViewController {
 
     override func viewDidLoad() {

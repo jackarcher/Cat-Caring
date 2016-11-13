@@ -12,6 +12,8 @@ class ActivityLogTableViewCell: UITableViewCell {
 
     @IBOutlet weak var thumbnail: UIImageView!
     
+    @IBOutlet weak var lblTime: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,4 +25,11 @@ class ActivityLogTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func setTime(dt:NSDate){
+        let df = DateFormatter()
+        df.timeZone = TimeZone(abbreviation: "AEDT")
+        df.dateFormat = "MMM-dd HH:mm"
+        lblTime.text = df.string(from: dt as Date)
+        
+    }
 }

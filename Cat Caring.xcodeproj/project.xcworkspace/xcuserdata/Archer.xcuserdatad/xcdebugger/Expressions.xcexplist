@@ -3,19 +3,90 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "RTCameraViewController.handlePan(recognizer : UIPanGestureRecognizer) -&gt; ():RTCameraViewController.swift">
+         contextName = "ActivityLogTableViewController.(viewWillAppear(Bool) -&gt; ()).(closure #1):ActivityLogTableViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "self.screen">
+               value = "r[&quot;photoId&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ActivityLogTableViewController.prepare(for : UIStoryboardSegue, sender : Any?) -&gt; ():ActivityLogTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "target.imageView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ActivityLogTableViewController.isIndicatorDisplayed(isDisplayed : Bool) -&gt; ():ActivityLogTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.indicatorFrame.superview">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ActivityLogTableViewController.(reload() -&gt; ()).(closure #1).(closure #1):ActivityLogTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view">
             </PersistentString>
             <PersistentString
-               value = "recognizer.view">
+               value = "indicatorFrame.superview">
             </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RTCameraViewController.(btnSetPerformed() -&gt; ()).(closure #1):RTCameraViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RTCameraViewController.generateParameters(area : DetectionArea) -&gt; [String : Any]:RTCameraViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static DataManager.(loadData(api : String!, method : String, parameters : [String : String], successfulHandler : (Data) -&gt; (), failHandler : () -&gt; ()?, caller : UIViewController?) -&gt; ()).(closure #1).(closure #1):DataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InputInfoTableViewController.(btnDonePerformed() -&gt; ()).(closure #1):InputInfoTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[&quot;result&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "json">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RTCameraViewController.handleTap(recognizer : UITapGestureRecognizer) -&gt; ():RTCameraViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "demo_camera_content">
+            </PersistentString>
+            <PersistentString
+               value = "screen.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RTCameraViewController.handlePan(recognizer : UIPanGestureRecognizer) -&gt; ():RTCameraViewController.swift">
+         <PersistentStrings>
             <PersistentString
                value = "recognizer.view!.frame">
             </PersistentString>
             <PersistentString
+               value = "self.screen">
+            </PersistentString>
+            <PersistentString
                value = "self.view">
+            </PersistentString>
+            <PersistentString
+               value = "recognizer.view">
             </PersistentString>
             <PersistentString
                value = "rect!">
@@ -33,6 +104,22 @@
          <PersistentStrings>
             <PersistentString
                value = "gesture.view?">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingTableViewController.changLog() -&gt; ():SettingTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user!.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DashboardViewController.dounghuntChart(percentage : CGFloat) -&gt; ():DashboardViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "chartView.frame">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

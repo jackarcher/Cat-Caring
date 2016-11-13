@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB34EEBD1DD240280081D817 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB34EEBC1DD240270081D817 /* CoreData.framework */; };
+		CB34EEBF1DD291A90081D817 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EEBE1DD291A90081D817 /* DashboardViewController.swift */; };
+		CB34EEC31DD29F680081D817 /* LogInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EEC11DD29F680081D817 /* LogInfo+CoreDataClass.swift */; };
+		CB34EEC41DD29F680081D817 /* LogInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EEC21DD29F680081D817 /* LogInfo+CoreDataProperties.swift */; };
+		CB34EEC61DD6360C0081D817 /* InputInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EEC51DD6360C0081D817 /* InputInfoTableViewController.swift */; };
+		CB34EEC91DD8182D0081D817 /* DetectionArea+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EEC71DD8182D0081D817 /* DetectionArea+CoreDataClass.swift */; };
+		CB34EECE1DD822F10081D817 /* DetectionArea+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EECD1DD822F10081D817 /* DetectionArea+CoreDataProperties.swift */; };
+		CB34EED01DD8A5D00081D817 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EECF1DD8A5D00081D817 /* Activity.swift */; };
+		CB34EED31DD8C8710081D817 /* ScrollImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34EED21DD8C8710081D817 /* ScrollImageViewController.swift */; };
 		CB38DF271DB8D45B004CC52A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38DF261DB8D45B004CC52A /* AppDelegate.swift */; };
 		CB38DF2F1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB38DF2D1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld */; };
 		CB38DF311DB8D45B004CC52A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB38DF301DB8D45B004CC52A /* Assets.xcassets */; };
@@ -17,6 +26,7 @@
 		CB3C0E471DB91878001463C8 /* FoodIntakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E461DB91878001463C8 /* FoodIntakeTableViewController.swift */; };
 		CB3C0E4A1DB91C2B001463C8 /* ActivityLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E491DB91C2B001463C8 /* ActivityLogTableViewCell.swift */; };
 		CB3C0E4C1DB91C9E001463C8 /* ActivityLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3C0E4B1DB91C9E001463C8 /* ActivityLogTableViewController.swift */; };
+		CB631EFF1DD2306400F7ED97 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB631EFE1DD2306400F7ED97 /* SettingTableViewController.swift */; };
 		CBAD1E721DCFD96600E3E94B /* DrawingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAD1E711DCFD96600E3E94B /* DrawingImageView.swift */; };
 		CBAF02351DCDA98A009AB4B4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF02341DCDA98A009AB4B4 /* DataManager.swift */; };
 		CBAF023F1DCDD18E009AB4B4 /* RTCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF023E1DCDD18E009AB4B4 /* RTCameraViewController.swift */; };
@@ -73,6 +83,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB34EEBC1DD240270081D817 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB34EEBE1DD291A90081D817 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		CB34EEC11DD29F680081D817 /* LogInfo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LogInfo+CoreDataClass.swift"; path = "../LogInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CB34EEC21DD29F680081D817 /* LogInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LogInfo+CoreDataProperties.swift"; path = "../LogInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CB34EEC51DD6360C0081D817 /* InputInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputInfoTableViewController.swift; sourceTree = "<group>"; };
+		CB34EEC71DD8182D0081D817 /* DetectionArea+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DetectionArea+CoreDataClass.swift"; path = "../DetectionArea+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CB34EECD1DD822F10081D817 /* DetectionArea+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DetectionArea+CoreDataProperties.swift"; path = "../DetectionArea+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CB34EECF1DD8A5D00081D817 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		CB34EED21DD8C8710081D817 /* ScrollImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollImageViewController.swift; sourceTree = "<group>"; };
 		CB38DF231DB8D45B004CC52A /* Cat Caring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat Caring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB38DF261DB8D45B004CC52A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB38DF2B1DB8D45B004CC52A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,6 +110,7 @@
 		CB3C0E461DB91878001463C8 /* FoodIntakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIntakeTableViewController.swift; sourceTree = "<group>"; };
 		CB3C0E491DB91C2B001463C8 /* ActivityLogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLogTableViewCell.swift; sourceTree = "<group>"; };
 		CB3C0E4B1DB91C9E001463C8 /* ActivityLogTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityLogTableViewController.swift; sourceTree = "<group>"; };
+		CB631EFE1DD2306400F7ED97 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		CBAD1E711DCFD96600E3E94B /* DrawingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingImageView.swift; sourceTree = "<group>"; };
 		CBAF02341DCDA98A009AB4B4 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		CBAF023E1DCDD18E009AB4B4 /* RTCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTCameraViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB34EEBD1DD240280081D817 /* CoreData.framework in Frameworks */,
 				CBB624C91DCE2A01000F0A17 /* MjpegStreamingKit.framework in Frameworks */,
 				CBB624C81DCE29D3000F0A17 /* MjpegStreamingKit.framework in Frameworks */,
 			);
@@ -124,6 +145,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB34EEC01DD295B20081D817 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CB34EEC71DD8182D0081D817 /* DetectionArea+CoreDataClass.swift */,
+				CB34EECD1DD822F10081D817 /* DetectionArea+CoreDataProperties.swift */,
+				CB34EEC21DD29F680081D817 /* LogInfo+CoreDataProperties.swift */,
+				CB34EEC11DD29F680081D817 /* LogInfo+CoreDataClass.swift */,
+				CB38DF2D1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		CB34EED11DD8A5D40081D817 /* Local data model */ = {
+			isa = PBXGroup;
+			children = (
+				CB34EECF1DD8A5D00081D817 /* Activity.swift */,
+			);
+			name = "Local data model";
+			sourceTree = "<group>";
+		};
 		CB38DF1A1DB8D45B004CC52A = {
 			isa = PBXGroup;
 			children = (
@@ -151,13 +192,15 @@
 				CB38DF321DB8D45B004CC52A /* LaunchScreen.storyboard */,
 				CB38DF2A1DB8D45B004CC52A /* Main.storyboard */,
 				CB38DF261DB8D45B004CC52A /* AppDelegate.swift */,
+				CBAF02341DCDA98A009AB4B4 /* DataManager.swift */,
+				CB34EED11DD8A5D40081D817 /* Local data model */,
+				CB34EEC01DD295B20081D817 /* CoreData */,
 				CB3C0E481DB9187B001463C8 /* View Controllers */,
 				CB3C0E451DB917F8001463C8 /* Table Cells */,
 				CBAD1E711DCFD96600E3E94B /* DrawingImageView.swift */,
 				CB3C0E411DB90531001463C8 /* Themes.swift */,
 				CB38DF301DB8D45B004CC52A /* Assets.xcassets */,
 				CB38DF351DB8D45B004CC52A /* Info.plist */,
-				CB38DF2D1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld */,
 			);
 			path = "Cat Caring";
 			sourceTree = "<group>";
@@ -194,8 +237,11 @@
 			children = (
 				CB3C0E461DB91878001463C8 /* FoodIntakeTableViewController.swift */,
 				CB3C0E4B1DB91C9E001463C8 /* ActivityLogTableViewController.swift */,
-				CBAF02341DCDA98A009AB4B4 /* DataManager.swift */,
 				CBAF023E1DCDD18E009AB4B4 /* RTCameraViewController.swift */,
+				CB631EFE1DD2306400F7ED97 /* SettingTableViewController.swift */,
+				CB34EEC51DD6360C0081D817 /* InputInfoTableViewController.swift */,
+				CB34EEBE1DD291A90081D817 /* DashboardViewController.swift */,
+				CB34EED21DD8C8710081D817 /* ScrollImageViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -203,6 +249,7 @@
 		CBB624C11DCE29CD000F0A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB34EEBC1DD240270081D817 /* CoreData.framework */,
 				CBB624C21DCE29CD000F0A17 /* MjpegStreamingKit.xcodeproj */,
 			);
 			name = Frameworks;
@@ -371,14 +418,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB34EEC41DD29F680081D817 /* LogInfo+CoreDataProperties.swift in Sources */,
+				CB34EECE1DD822F10081D817 /* DetectionArea+CoreDataProperties.swift in Sources */,
 				CB3C0E4C1DB91C9E001463C8 /* ActivityLogTableViewController.swift in Sources */,
 				CBAF02351DCDA98A009AB4B4 /* DataManager.swift in Sources */,
 				CBAF023F1DCDD18E009AB4B4 /* RTCameraViewController.swift in Sources */,
 				CB38DF271DB8D45B004CC52A /* AppDelegate.swift in Sources */,
+				CB34EED31DD8C8710081D817 /* ScrollImageViewController.swift in Sources */,
+				CB34EED01DD8A5D00081D817 /* Activity.swift in Sources */,
 				CB3C0E421DB90531001463C8 /* Themes.swift in Sources */,
 				CBAD1E721DCFD96600E3E94B /* DrawingImageView.swift in Sources */,
 				CB3C0E471DB91878001463C8 /* FoodIntakeTableViewController.swift in Sources */,
+				CB34EEC91DD8182D0081D817 /* DetectionArea+CoreDataClass.swift in Sources */,
+				CB34EEBF1DD291A90081D817 /* DashboardViewController.swift in Sources */,
+				CB34EEC61DD6360C0081D817 /* InputInfoTableViewController.swift in Sources */,
+				CB631EFF1DD2306400F7ED97 /* SettingTableViewController.swift in Sources */,
 				CB38DF2F1DB8D45B004CC52A /* Cat_Caring.xcdatamodeld in Sources */,
+				CB34EEC31DD29F680081D817 /* LogInfo+CoreDataClass.swift in Sources */,
 				CB3C0E441DB917F4001463C8 /* FoodIntakeTableViewCell.swift in Sources */,
 				CB3C0E4A1DB91C2B001463C8 /* ActivityLogTableViewCell.swift in Sources */,
 			);
